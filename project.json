@@ -1,0 +1,89 @@
+{
+  "name": "APIpubliqueAuto",
+  "projectId": "f5f08910-1010-4ce7-a14c-4ab2aa84ffbc",
+  "description": "Projet d'automatisation de test API publique ",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Form.Activities": "[25.2.0]",
+    "UiPath.System.Activities": "[24.10.7]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.WebAPI.Activities": "[1.21.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.157.0",
+  "projectVersion": "1.0.193241409",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4d584f0f-145e-4c9c-ac6d-b55cd2d8e5fb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "RequestTest\\AddBook.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cc80cb94-84ad-489e-88a6-680035b7396a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "RequestTest\\Get Book by id.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0979e1e2-be9a-47fc-a2e1-14da6afdd910",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "RequestTest\\GetBooks.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2f33a246-809a-4a0d-8d7f-f412df070c96",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "RequestTest\\PutBook.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9b7d26bf-c9da-4f5e-bc66-df6b38149702",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "RequestTest\\Delete book.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
